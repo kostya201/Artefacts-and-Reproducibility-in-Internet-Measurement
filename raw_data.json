@@ -15,8 +15,7 @@
             "Code Link": "https://github.com/yzzhn/imc2024dnshttps/tree/main?tab=readme-ov-file",
             "Code Format": "Jupyter notebooks for analyses and python scripts for the project itself",
             "Versioning Info": "Not found in paper",
-            "Explanation for Missing Artefacts": "All artefacts were provided",
-            "Notes": "_"
+            "Explanation for Missing Artefacts": "All artefacts were provided"
         },
         "3. Reproducibility Support": {
             "Reproducibility Section in Paper": "Subsubsection 'Artifact availability', which contains the link to the github and instruction provided in readme file",
@@ -25,8 +24,7 @@
             "Any Community Feedback": "Not found"
         },
         "4. Results Presentation": {
-            "Visuals in Paper": "Yes",
-            "Notes": "_"
+            "Visuals in Paper": "Yes"
         },
         "5. Constraints and Limitations": {
             "Limitations Stated": "Yes: Section 7 browsers' lack support for IP hints",
@@ -56,8 +54,7 @@
             "Code Link": "https://zenodo.org/records/13743301 and https://github.com/netd-tud/artifacts-imc24-reACKed-QUICer",
             "Code Format": "Python, Jupyter Notebooks",
             "Versioning Info": "The paper explicitly  states: 'the emulation uses Docker images pulled on 06.07.2024, except for mvfst, which was pulled on 19.08.2024'",
-            "Explanation for Missing Artefacts": "All artefacts were provided",
-            "Notes": "_"
+            "Explanation for Missing Artefacts": "All artefacts were provided"
         },
         "3. Reproducibility Support": {
             "Reproducibility Section in Paper": "Yes: Section B 'Artifacts', which provides the lnk to the repository containig all artefacts",
@@ -66,15 +63,13 @@
             "Any Community Feedback": "Not found"
         },
         "4. Results Presentation": {
-            "Visuals in Paper": "Yes",
-            "Notes": ""
+            "Visuals in Paper": "Yes"
         },
         "5. Constraints and Limitations": {
             "Limitations Stated": "Yes: Section 5 outlines when instant ACK harms",
             "License Stated": "CC-BY 4.0.",
             "Ethical/Legal Constraints Presented": "Yes: Dedicated section 'Ethics', which states : 'This work does not raise any ethical issues'",
-            "Technical Constraints Presented": "Authors even specified the memory and disk space required: 256 GB, ~600 GB",
-            "Notes": ""
+            "Technical Constraints Presented": "Authors even specified the memory and disk space required: 256 GB, ~600 GB"
         },
         "Reproducibility Verdict": {
             "Reproducibility Level": "Fully reproducible",
@@ -107,15 +102,13 @@
             "Any Community Feedback": "Not found"
         },
         "4. Results Presentation": {
-            "Visuals in Paper": "Yes: multiple figures and tables",
-            "Notes": ""
+            "Visuals in Paper": "Yes: multiple figures and tables"
         },
         "5. Constraints and Limitations": {
             "Limitations Stated": "Yes: ",
             "License Stated": "Publication rights licensed to ACM",
             "Ethical/Legal Constraints Presented": "Yes: dedicated section (Appendix A)",
-            "Technical Constraints Presented": "Yes: ICMP message acceptance varies by OS (Section 4)",
-            "Notes": ""
+            "Technical Constraints Presented": "Yes: ICMP message acceptance varies by OS (Section 4)"
         },
         "Reproducibility Verdict": {
             "Reproducibility Level": "Not reproducible",
@@ -147,8 +140,7 @@
             "Any Community Feedback": "Not found"
         },
         "4. Results Presentation": {
-            "Visuals in Paper": "Yes",
-            "Notes": ""
+            "Visuals in Paper": "Yes"
         },
         "5. Constraints and Limitations": {
             "Limitations Stated": "Scan-list completeness limits (Section 5.1)",
@@ -331,8 +323,7 @@
             "Code Link": "https://github.com/sixiangdeweicao/DET, https://github.com/IPv6-Security/6Sense,  https://github.com/hbn1987/6Scan,  https://github.com/Lab-ANT/6Graph,  https://github.com/akamai/entropy-ip.git, https://doi.org/10.1016/j.comnet.2019.03.010,  https://doi.org/10.1109/INFOCOM42981.2021.9488794, https://doi.org/10.1145/3131365.3131405 ",
             "Code Format": "Not checked",
             "Versioning Info": "Not found",
-            "Explanation for Missing Artefacts": "Not Found",
-            "Notes": ""
+            "Explanation for Missing Artefacts": "Not Found"
         },
         "3. Reproducibility Support": {
             "Reproducibility Section in Paper": "No dedicated sections or links how reproduce experiments, except Section 4 that explains methodology",

@@ -14,8 +14,7 @@
         "Code Link": "",
         "Code Format": "",
         "Versioning Info": "",
-        "Explanation for Missing Artefacts": "",
-        "Notes": ""
+        "Explanation for Missing Artefacts": ""
     },
     "3. Reproducibility Support": {
         "Reproducibility Section in Paper": "",
@@ -30,14 +29,12 @@
         "Limitations Stated": "",
         "License Stated": "",
         "Ethical/Legal Constraints Presented": "",
-        "Technical Constraints Presented": "",
-        "Notes": ""
+        "Technical Constraints Presented": ""
     },
     "6. Tools": {
         "Measurement Tools Used": "",
         "Command-line Parameters or Config Files": "",
-        "Protocol-specific Settings": "",
-        "Notes": ""
+        "Protocol-specific Settings": ""
     },
     "Reproducibility Verdict": {
         "Reproducibility Level": "",
