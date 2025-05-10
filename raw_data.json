@@ -1,0 +1,396 @@
+[
+    {
+        "Paper": "Exploring the Ecosystem of DNS HTTPS Resource Records: An End-to-End Perspective",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes – Section 4.1",
+            "Tools Mentioned/Utilized": "Dnspython, BIND 9, Unbound library, OpenSSL(ECH), Nginx, Different browsers (Chrome, Safari, Edge, and Firefox)",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: Section 3 general overview, Sections 4 and 5 detailed explanation on methodology"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Fully available: Complete dataset is publicly available",
+            "Dataset Link": " https://keyinfra.cs.virginia.edu/dns_http/artifact/",
+            "Dataset Format": "csv files",
+            "Code Availability": "Yes:  ",
+            "Code Link": "https://github.com/yzzhn/imc2024dnshttps/tree/main?tab=readme-ov-file",
+            "Code Format": "Jupyter notebooks for analyses and python scripts for the project itself",
+            "Versioning Info": "Not found in paper",
+            "Explanation for Missing Artefacts": "All artefacts were provided",
+            "Notes": "_"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "Subsubsection 'Artifact availability', which contains the link to the github and instruction provided in readme file",
+            "README or Instructions": "Yes: README with installation steps",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes",
+            "Notes": "_"
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Yes: Section 7 browsers' lack support for IP hints",
+            "License Stated": "CC-BY 4.0",
+            "Ethical or Legal Constraints Presented": "Yes: APPEDNIX A (ETHICS)",
+            "Technical Constraints Presented": "Yes: Section 5 'Experimental setups' states that test environment is configured only for IPv4 addresse and ipv6 is future work, in addition, Section 5 'ECH key mismatch' states that  disabling retry is discouraged in the ECH specification not supported in the current ECH implementation of Nginx",
+            "Notes": "Constraints do not affect on reproducibility"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Fully reproducible",
+            "Explanation": "All of the artefacts are provided and well documented. Moreoevr, the authors explicitly stated in paper that the reseach is fully reproducible"
+        }
+    },
+    {
+        "Paper": "ReACKed QUICer: Measuring the Performance of Instant Acknowledgments in QUIC Handshakes",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: Qlog logs, packet captures, QScanner results, which are described in Section 3",
+            "Tools Mentioned/Utilized/Utilized": " QUIC Interop Runner (QIR), QScanner, aioquic, go-x-net, mvfst, neqo, ngtcp2, picoquic, quic-go, quiche, quic-go server modified to support IACK,  Docker image",
+            "Tool Selection Explained": "Partially: Packet dissector was not specified",
+            "Methodology Described": "Yes: Section 3"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Fully available: Dataset contains Qlog logs, packet captures, QScanner results",
+            "Dataset Link": "https://zenodo.org/records/13743301",
+            "Dataset Format": "csv files",
+            "Code Availability": "Provided: Run-time environment: Python, Jupyter Notebooks",
+            "Code Link": "https://zenodo.org/records/13743301 and https://github.com/netd-tud/artifacts-imc24-reACKed-QUICer",
+            "Code Format": "Python, Jupyter Notebooks",
+            "Versioning Info": "The paper explicitly  states: 'the emulation uses Docker images pulled on 06.07.2024, except for mvfst, which was pulled on 19.08.2024'",
+            "Explanation for Missing Artefacts": "All artefacts were provided",
+            "Notes": "_"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "Yes: Section B 'Artifacts', which provides the lnk to the repository containig all artefacts",
+            "README or Instructions": "Yes: Instructions on how to reproduce the paper graphs.",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes",
+            "Notes": ""
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Yes: Section 5 outlines when instant ACK harms",
+            "License Stated": "CC-BY 4.0.",
+            "Ethical/Legal Constraints Presented": "Yes: Dedicated section 'Ethics', which states : 'This work does not raise any ethical issues'",
+            "Technical Constraints Presented": "Authors even specified the memory and disk space required: 256 GB, ~600 GB",
+            "Notes": ""
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Fully reproducible",
+            "Explanation": "All artefacts are well documented and publicly available. The research provided the methodology and plots, which help understanding of research results"
+        }
+    },
+    {
+        "Paper": "Rumors Stop with the Wise: Unveiling Inbound SAV Deployment through Spoofed ICMP Messages",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: ipv4 addresses full-space scan for ipv6 paper provides the links to hit-lists",
+            "Tools Mentioned/Utilized": "ICMP_Sonar (introduced in paper)",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: Dedicated section (Section 3)"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Partially available: Authors provided very good description, therefore it can be reproduced, but it is not provided by authors",
+            "Dataset Link": "_",
+            "Dataset Format": "_",
+            "Code Availability": "Not available",
+            "Code Link": "_",
+            "Code Format": "_",
+            "Versioning Info": "_",
+            "Explanation for Missing Artefacts": "Privacy and ethical concerns",
+            "Notes": "The paper concerns the security topic"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "Not found",
+            "README or Instructions": "None",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes: multiple figures and tables",
+            "Notes": ""
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Yes: ",
+            "License Stated": "Publication rights licensed to ACM",
+            "Ethical/Legal Constraints Presented": "Yes: dedicated section (Appendix A)",
+            "Technical Constraints Presented": "Yes: ICMP message acceptance varies by OS (Section 4)",
+            "Notes": ""
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Not reproducible",
+            "Explanation": "The dataset could be reproduced, however the paper does not provided the ICMP_Sonar tool, which is the core of the research"
+        }
+    },
+    {
+        "Paper": "Zeros Are Heroes: NSEC3 Parameter Settings in the Wild",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: Section 4",
+            "Tools Mentioned/Utilized/Utilized": "zdns scanner for DNSKEY/NSEC3 look-up, RIPE Atlas, Cloudflare, ZMap",
+            "Tool Selection Explained": "Yes: Appendix A",
+            "Methodology Described": "Yes: Section 4"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Partially available: Authors provided 49 subdomains allowing the community to conduct their own tests and validate resolver behavior with different iteration counts, however for Large-Scale Domain Analysis the 302M registered domain were not shared",
+            "Dataset Link": "rfc9276-in-the-wild.com",
+            "Dataset Format": "List of subdomains",
+            "Code Availability": "Not available",
+            "Code Link": "_",
+            "Code Format": "_",
+            "Versioning Info": "_",
+            "Explanation for Missing Artefacts": "Dataset: Privacy and ethical concerns, Code: no need in code since paper analyses and methodology is well explained "
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "Yes: Appendix A",
+            "README or Instructions": "No: However, paper provides very good methodology and explanation of analyses",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes",
+            "Notes": ""
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Scan-list completeness limits (Section 5.1)",
+            "License Stated": "Publication rights licensed to ACM",
+            "Ethical/Legal Constraints Presented": "Yes: Dedicated section (Appendix A)",
+            "Technical Constraints Presented": "Not found"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Partially reproducible",
+            "Explanation": "We only can reproduce the Resolver Compliance Testing part, since the subdomains and tools are available and methodology with expected results are also clear explained. The Large-Scale Domain Analysis can not be reproduced due to privacy concern"
+        }
+    },
+    {
+        "Paper": "Have you SYN me? Characterizing Ten Years of Internet Scanning",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: Section 3.2 describes the authors' network-telescope vantage",
+            "Tools Mentioned/Utilized": "ZMap, Masscan, Nmap, Unicorn, Mirai, network-telescopes",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: The paper provides dedicated section (Section 3)"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Not available",
+            "Dataset Link": "",
+            "Dataset Format": "",
+            "Code Availability": "Not available",
+            "Code Link": "_",
+            "Code Format": "_",
+            "Versioning Info": "_",
+            "Explanation for Missing Artefacts": "Not Found"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "Did not found: No dedicated reproducibility section or appendix linking the artefacts",
+            "README or Instructions": "Not found",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes"
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "The dataset (which is not available) does not contain traffic from ports 445/TCP 23/TCP since the advent of Mirai in 2016 (Section 3.2)",
+            "License Stated": "CC-BY 4.0",
+            "Ethical/Legal Constraints Presented": "Yes: Dedicated section (Section 8), which explains the collected traffic is not linked to specific individual",
+            "Technical Constraints Presented": "Not found",
+            "Notes": "These parameters are useless, since the code and dataset, which play the main role in this reseach, are not available"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Not reproducible",
+            "Explanation": "None of the artefacts are provided, and we did not find an explicitly stated reason for their absence."
+        }
+    },
+    {
+        "Paper": "The Roots Go Deep: Measuring ‘.’ Under Change",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: The paper provides dedicated section (Section 4.1) explaining the dataset used in research",
+            "Tools Mentioned/Utilized": "dig, NLNOG RING, passive ISP and IXP traces",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: Dedicated section (Section 4)"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Partially available: The reseach only provides active measurement dataset, while ISP-DNS-1 and IXP-DNS-1 datasets were not published",
+            "Dataset Link": "https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.1OAUEP",
+            "Dataset Format": "archived csv",
+            "Code Availability": "Provided: The paper contains the full active-measurement shell script (Appendix F)",
+            "Code Link": "the code is provided in paper itself and also could be found in https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.1OAUEP",
+            "Code Format": "Shell script",
+            "Versioning Info": "Not explicitely stated in paper",
+            "Explanation for Missing Artefacts": "Privacy concerns (Appendix E)"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "The paper provides subsubsection in Section 8, which provides information on atrifacts and data availability. Appendix F contains the code, while Appendix A provides a link to dataset",
+            "README or Instructions": "Yes: The provided repository contains README file",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes"
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Yes: Paper provides limitation in Appendix E",
+            "License Stated": "CC-BY 4.0",
+            "Ethical/Legal Constraints Presented": "Yes: Paper contains dedicated section (Appendix B)",
+            "Technical Constraints Presented": "Yes concerning the provided script. 'Script currently assumes GNU date and hostname utilities, i.e., needs adjustments to work under UNIX.'",
+            "Notes": "Authors explained how to manage the technical constraint, therefore it should not cause problem with reproducibility"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Partially reproducible",
+            "Explanation": "Since the code and dataset for active measurements and expected results with methodologyare are provided , this part of study could be reproduced. However passive measurements could not be reproduced due to not provided data"
+        }
+    },
+    {
+        "Paper": "Sublet Your Subnet: Inferring IP Leasing in the Wild",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: Section 4 provides a fully description on dataset",
+            "Tools Mentioned/Utilized": "RIPE, WHOIS, ARIN, APNIC, BGP, RPKI",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: The Section 5 provides all methodologies insights"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Fully available: The leased prefixes reference dataset  needs to be generated by RIPE.ipynb and ARIN.ipynb, which are provided. The non-leased prefixes reference dataset is included in the files named non_lease_[ISP]_pfx.csv.",
+            "Dataset Link": "https://github.com/CAIDA/IP-Leasing-Inference/tree/main",
+            "Dataset Format": "commands to generate, ready-to-use csv and archived json files",
+            "Code Availability": "Provided",
+            "Code Link": "https://github.com/CAIDA/IP-Leasing-Inference/tree/main",
+            "Code Format": "Jupyter Notebooks",
+            "Versioning Info": "Not found",
+            "Explanation for Missing Artefacts": "All artefacts were provided"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "Paper provides the dedicated section (C Replicability), which links to the artefacts",
+            "README or Instructions": "README is provided with description how generate the dataset",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes"
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Yes: Paper contains dedicated section (7 Limitations), which states legacy-space exclusion, multi-homing mis-classification, and incomplete BGP data, unability ti register WHOIS records for the victim’s address space",
+            "License Stated": "CC-BY 4.0",
+            "Ethical/Legal Constraints Presented": "Yes: Appendix B states that the reseach does not raise ethical concerns and contained no personally identifiable information",
+            "Technical Constraints Presented": "Not found"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Fully reproducible",
+            "Explanation": "All artefacts were provided and well documented. The results and methodology were well ploted and described. Therefore the research us fully reproducible."
+        }
+    },
+    {
+        "Paper": "Destination Reachable: What ICMPv6 Error Messages Reveal About Their Sources",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: Sections 3, 4.2, 4.3, 5.2 provide description on dataset utilized in reseach",
+            "Tools Mentioned/Utilized": "Network simulator GNS3, Yarrp, ZMap scanner, router lab, RIPE RIS BGP looking glass",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: Section 3 provides an outline on workflow, which was described in detail later in sections 4 and 5. Moreover, README file provides section on methodology and how reproduce results"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Fully available: Dataset files were not published, but the paper provides code to download needed datasests",
+            "Dataset Link": "https://github.com/sbaresearch/icmpv6-destination-reachable",
+            "Dataset Format": "Script to download, and Jupyter notebooks, which include code to further extract and process the downloaded zip archives",
+            "Code Availability": "Provided",
+            "Code Link": "https://github.com/sbaresearch/icmpv6-destination-reachable",
+            "Code Format": "Python scripts, Jupyter notebooks, ",
+            "Versioning Info": "Not found",
+            "Explanation for Missing Artefacts": "All artefacts were provided"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "The paper did not provide direct sections on reproducibility, but provided repository contains instructions on how to achive same results",
+            "README or Instructions": "Provided",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes"
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Yes: ",
+            "License Stated": "CC-BY 4.0",
+            "Ethical/Legal Constraints Presented": "Yes: Appendix A (Ethics) explains how researchers followed the rules of good Internet citizenship",
+            "Technical Constraints Presented": "In the repository is stated: 'It is not a complete one-script/docker solution, since measurements were conducted in different environments (GNS3 router images, kvm kernel testing, active measurements on routers in the IPv6 Internet)'"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Fully reproducible",
+            "Explanation": "Artefacts are provided. Instructions to reproduce results are also available. Results are good explained. Therefore the work should be fully reproducible"
+        }
+    },
+    {
+        "Paper": "Seeds of Scanning: Exploring the Effects of Datasets, Methods, and Metrics on IPv6 Internet Scanning ",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: Section 5 provides an overview of datasets and their composition",
+            "Tools Mentioned/Utilized": "TGAs (6Sense, DET, 6Tree, 6Scan, 6Graph, 6Gen, 6Hit, Entropy/IP), scanv6, ZDNS ",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: Section 4 (Method)"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Partially available: The reseach does not provide the direct datasets files, however in Table 7 it gives the exact its name and source. Therefore datasets are availabe and could be downloaded",
+            "Dataset Link": "See Table 7 in paper",
+            "Dataset Format": "_",
+            "Code Availability": "Partially provided: The authors analyse eigt TGAs, which were not directly provided in one repository, but instead were referenced. Only 4 (6Graph, 6Sense, 6Scan, and DET) were directly refernced to github, while the rest TGAs (6Hit, 6Tree, 6Gen) were referenced to papers ",
+            "Code Link": "https://github.com/sixiangdeweicao/DET, https://github.com/IPv6-Security/6Sense,  https://github.com/hbn1987/6Scan,  https://github.com/Lab-ANT/6Graph,  https://github.com/akamai/entropy-ip.git, https://doi.org/10.1016/j.comnet.2019.03.010,  https://doi.org/10.1109/INFOCOM42981.2021.9488794, https://doi.org/10.1145/3131365.3131405 ",
+            "Code Format": "Not checked",
+            "Versioning Info": "Not found",
+            "Explanation for Missing Artefacts": "Not Found",
+            "Notes": ""
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "No dedicated sections or links how reproduce experiments, except Section 4 that explains methodology",
+            "README or Instructions": "None",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "Not found"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes"
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Not found",
+            "License Stated": "CC-BY 4.0.",
+            "Ethical/Legal Constraints Presented": "Yes: Appedix A states that work complies with all applicable ethical standards",
+            "Technical Constraints Presented": "Not found"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Partially reproducible",
+            "Explanation": "Despite that the paper does not directly provides artefacts, it still explains results and methodologies. It also references the sources of TGAs and datasets. It might be challenging to reproduce the results, but according to raw data we collected it is still possible"
+        }
+    },
+    {
+        "Paper": "Analyzing the (In)Accessibility of Online Advertisements",
+        "1. Documentation Quality": {
+            "Dataset Described": "Yes: Section 3.1 (Collecting Ad Dataset) explains the datasets in details",
+            "Tools Mentioned/Utilized": "AdScraper, Chrome DevTools Protocol API, EasyList CSS rules, SimilarWeb",
+            "Tool Selection Explained": "Yes",
+            "Methodology Described": "Yes: Section 3 contains explanation on methodology used in research"
+        },
+        "2. Artefact Availability": {
+            "Dataset Availability": "Yes: Full dataset is available",
+            "Dataset Link": "https://ad-archive.cs.washington.edu/",
+            "Dataset Format": "Png Images",
+            "Code Availability": "Not provided",
+            "Code Link": "_",
+            "Code Format": "_",
+            "Versioning Info": "The images contain the Ad Date",
+            "Explanation for Missing Artefacts": "Not stated",
+            "Notes": "The authors claim: 'We will make our dataset of ads, accessibility tree data, and analysis code publicly available', however we did not manage to find any code"
+        },
+        "3. Reproducibility Support": {
+            "Reproducibility Section in Paper": "No direct instructions, but it contains good explained methodology",
+            "README or Instructions": "Not found",
+            "Reproducibility Badge": "None",
+            "Any Community Feedback": "The paper states in Section 11 that the resarch results are being verified by Google, however the authors did not include the results of verification"
+        },
+        "4. Results Presentation": {
+            "Visuals in Paper": "Yes"
+        },
+        "5. Constraints and Limitations": {
+            "Limitations Stated": "Yes: paper contains the Limitation section that outlines EasyList detection limits and other aspects, which do not affect reproducibility",
+            "License Stated": "CC-BY 4.0",
+            "Ethical/Legal Constraints Presented": "Yes: Section 11 (Ethics) that mentions measurement study and user study",
+            "Technical Constraints Presented": "Not found"
+        },
+        "Reproducibility Verdict": {
+            "Reproducibility Level": "Not reproducible",
+            "Explanation": "First reason: the code is not available. The second reason: one of the research parts was taking interviews from participants, which is not reproducible, so this study could not be fully reproducible even with code provided"
+        }
+    }
+]

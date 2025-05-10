@@ -1,0 +1,46 @@
+{
+    "Paper": "",
+    "1. Documentation Quality": {
+        "Dataset Described": "",
+        "Tools Mentioned/Utilized": "",
+        "Tool Selection Explained": "",
+        "Methodology Described": ""
+    },
+    "2. Artefact Availability": {
+        "Dataset Availability": "",
+        "Dataset Link": "",
+        "Dataset Format": "",
+        "Code Availability": "",
+        "Code Link": "",
+        "Code Format": "",
+        "Versioning Info": "",
+        "Explanation for Missing Artefacts": "",
+        "Notes": ""
+    },
+    "3. Reproducibility Support": {
+        "Reproducibility Section in Paper": "",
+        "README or Instructions": "",
+        "Reproducibility Badge": "",
+        "Any Community Feedback": ""
+    },
+    "4. Results Presentation": {
+        "Visuals in Paper": ""
+    },
+    "5. Constraints and Limitations": {
+        "Limitations Stated": "",
+        "License Stated": "",
+        "Ethical/Legal Constraints Presented": "",
+        "Technical Constraints Presented": "",
+        "Notes": ""
+    },
+    "6. Tools": {
+        "Measurement Tools Used": "",
+        "Command-line Parameters or Config Files": "",
+        "Protocol-specific Settings": "",
+        "Notes": ""
+    },
+    "Reproducibility Verdict": {
+        "Reproducibility Level": "",
+        "Explanation": ""
+    }
+}
