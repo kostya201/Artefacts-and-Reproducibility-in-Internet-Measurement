@@ -58,7 +58,7 @@
         },
         "3. Reproducibility Support": {
             "Reproducibility Section in Paper": "Yes: Section B 'Artifacts', which provides the lnk to the repository containig all artefacts",
-            "README or Instructions": "Yes: Instructions on how to reproduce the paper graphs.",
+            "README or Instructions": "Yes: Instructions on how to reproduce the results",
             "Reproducibility Badge": "None",
             "Any Community Feedback": "Not found"
         },
@@ -212,7 +212,7 @@
         },
         "3. Reproducibility Support": {
             "Reproducibility Section in Paper": "The paper provides subsubsection in Section 8, which provides information on atrifacts and data availability. Appendix F contains the code, while Appendix A provides a link to dataset",
-            "README or Instructions": "Yes: The provided repository contains README file",
+            "README or Instructions": "Yes: The provided repository contains README file, which only contains description of provided datasets",
             "Reproducibility Badge": "None",
             "Any Community Feedback": "Not found"
         },
@@ -289,7 +289,7 @@
         },
         "3. Reproducibility Support": {
             "Reproducibility Section in Paper": "The paper did not provide direct sections on reproducibility, but provided repository contains instructions on how to achive same results",
-            "README or Instructions": "Provided",
+            "README or Instructions": "READMe is provided with instructions",
             "Reproducibility Badge": "None",
             "Any Community Feedback": "Not found"
         },
